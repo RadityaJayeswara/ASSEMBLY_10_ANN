@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Dec 17 11:06:17 2024
+# Process ID: 11016
+# Current directory: C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/synth_1
+# Command line: vivado.exe -log ASSEMBLY_5_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ASSEMBLY_5_wrapper.tcl
+# Log file: C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/synth_1/ASSEMBLY_5_wrapper.vds
+# Journal file: C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/synth_1\vivado.jou
+# Running On        :LAPTOP-7364E6GV
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8344 MB
+# Swap memory       :25737 MB
+# Total Virtual     :34081 MB
+# Available Virtual :14937 MB
+#-----------------------------------------------------------
+source ASSEMBLY_5_wrapper.tcl -notrace

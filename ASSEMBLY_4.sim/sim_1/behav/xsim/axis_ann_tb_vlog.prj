@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ipshared/ec67/hdl" --include "../../../../ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ipshared/a317/hdl" --include "../../../../ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ipshared/f0b6/hdl/verilog" --include "../../../../ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ipshared/c783/hdl/verilog" --include "C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../ann.v" \
+"../../../../axis_ann.v" \
+"../../../../pe.v" \
+"../../../../register.v" \
+"../../../../sigmoid.v" \
+"../../../../systolicnew.v" \
+"../../../../axis_ann_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

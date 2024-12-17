@@ -1,0 +1,18 @@
+
+*** Running vivado
+    with args -log ASSEMBLY_5_xbar_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ASSEMBLY_5_xbar_1.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Dec 17 10:43:17 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ASSEMBLY_5_xbar_1.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 514.938 ; gain = 200.488
+INFO: [IP_Flow 19-234] Refreshing IP repositories

@@ -1,0 +1,1069 @@
+
+*** Running vivado
+    with args -log ASSEMBLY_5_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source ASSEMBLY_5_wrapper.tcl -notrace
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Dec 17 11:07:54 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ASSEMBLY_5_wrapper.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 514.488 ; gain = 196.355
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/hp/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+add_files: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 577.430 ; gain = 41.527
+Command: link_design -top ASSEMBLY_5_wrapper -part xck26-sfvc784-2LV-c
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_axi_dma_0_0/ASSEMBLY_5_axi_dma_0_0.dcp' for cell 'ASSEMBLY_5_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_axis_ann_0_1/ASSEMBLY_5_axis_ann_0_1.dcp' for cell 'ASSEMBLY_5_i/axis_ann_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_proc_sys_reset_0_0/ASSEMBLY_5_proc_sys_reset_0_0.dcp' for cell 'ASSEMBLY_5_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/ASSEMBLY_5_smartconnect_0_0.dcp' for cell 'ASSEMBLY_5_i/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/ASSEMBLY_5_smartconnect_1_0.dcp' for cell 'ASSEMBLY_5_i/smartconnect_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_zynq_ultra_ps_e_0_0/ASSEMBLY_5_zynq_ultra_ps_e_0_0.dcp' for cell 'ASSEMBLY_5_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_xbar_1/ASSEMBLY_5_xbar_1.dcp' for cell 'ASSEMBLY_5_i/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_ds_0/ASSEMBLY_5_auto_ds_0.dcp' for cell 'ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_pc_0/ASSEMBLY_5_auto_pc_0.dcp' for cell 'ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_ds_1/ASSEMBLY_5_auto_ds_1.dcp' for cell 'ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_pc_1/ASSEMBLY_5_auto_pc_1.dcp' for cell 'ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1631.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 261 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_zynq_ultra_ps_e_0_0/ASSEMBLY_5_zynq_ultra_ps_e_0_0.xdc] for cell 'ASSEMBLY_5_i/zynq_ultra_ps_e_0/inst'
+create_clock: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1842.961 ; gain = 36.664
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_zynq_ultra_ps_e_0_0/ASSEMBLY_5_zynq_ultra_ps_e_0_0.xdc] for cell 'ASSEMBLY_5_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_1/bd_75c5_psr_aclk_0_board.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_1/bd_75c5_psr_aclk_0_board.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_1/bd_75c5_psr_aclk_0.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_1/bd_75c5_psr_aclk_0.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:82]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:140]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:143]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:146]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:152]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:155]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:158]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:178]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:181]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc:184]
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_6/bd_75c5_sarn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:82]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:140]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:143]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:146]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:152]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:155]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:158]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:178]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:181]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc:184]
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/bd_0/ip/ip_7/bd_75c5_srn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:1]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:2]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:3]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:4]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:5]
+INFO: [Common 17-14] Message 'Vivado 12-180' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:6]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:6]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:8]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:9]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc:10]
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_0_0/smartconnect.xdc] for cell 'ASSEMBLY_5_i/smartconnect_0/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_1/bd_b594_psr_aclk_0_board.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_1/bd_b594_psr_aclk_0_board.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_1/bd_b594_psr_aclk_0.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_1/bd_b594_psr_aclk_0.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_6/bd_b594_sawn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_aw_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_6/bd_b594_sawn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_6/bd_b594_sawn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_6/bd_b594_sawn_0_clocks.xdc:55]
+INFO: [Common 17-14] Message 'Vivado_Tcl 4-921' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_6/bd_b594_sawn_0_clocks.xdc:55]
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_6/bd_b594_sawn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_aw_node/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_7/bd_b594_swn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_w_node/inst'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_7/bd_b594_swn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_w_node/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_8/bd_b594_sbn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_b_node/inst'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/bd_0/ip/ip_8/bd_b594_sbn_0_clocks.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_b_node/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/smartconnect.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/smartconnect.xdc:1]
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_smartconnect_1_0/smartconnect.xdc] for cell 'ASSEMBLY_5_i/smartconnect_1/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_axi_dma_0_0/ASSEMBLY_5_axi_dma_0_0.xdc] for cell 'ASSEMBLY_5_i/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_axi_dma_0_0/ASSEMBLY_5_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_axi_dma_0_0/ASSEMBLY_5_axi_dma_0_0.xdc] for cell 'ASSEMBLY_5_i/axi_dma_0/U0'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_proc_sys_reset_0_0/ASSEMBLY_5_proc_sys_reset_0_0_board.xdc] for cell 'ASSEMBLY_5_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_proc_sys_reset_0_0/ASSEMBLY_5_proc_sys_reset_0_0_board.xdc] for cell 'ASSEMBLY_5_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_proc_sys_reset_0_0/ASSEMBLY_5_proc_sys_reset_0_0.xdc] for cell 'ASSEMBLY_5_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_proc_sys_reset_0_0/ASSEMBLY_5_proc_sys_reset_0_0.xdc] for cell 'ASSEMBLY_5_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_ds_0/ASSEMBLY_5_auto_ds_0_clocks.xdc] for cell 'ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_ds_0/ASSEMBLY_5_auto_ds_0_clocks.xdc] for cell 'ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_ds_1/ASSEMBLY_5_auto_ds_1_clocks.xdc] for cell 'ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_auto_ds_1/ASSEMBLY_5_auto_ds_1_clocks.xdc] for cell 'ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_axi_dma_0_0/ASSEMBLY_5_axi_dma_0_0_clocks.xdc] for cell 'ASSEMBLY_5_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.gen/sources_1/bd/ASSEMBLY_5/ip/ASSEMBLY_5_axi_dma_0_0/ASSEMBLY_5_axi_dma_0_0_clocks.xdc] for cell 'ASSEMBLY_5_i/axi_dma_0/U0'
+INFO: [Project 1-1714] 40 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 288 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2714.484 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 83 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 30 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 47 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+25 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:30 ; elapsed = 00:01:41 . Memory (MB): peak = 2714.484 ; gain = 2137.055
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2714.484 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 229807501
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2714.484 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 229807501
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3080.055 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 229807501
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 3080.055 ; gain = 0.000
+Phase 1 Initialization | Checksum: 229807501
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 3080.055 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 229807501
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 3082.379 ; gain = 2.324
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 229807501
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Phase 2 Timer Update And Timing Data Collection | Checksum: 229807501
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 3082.379 ; gain = 2.324
+
+Phase 3 Retarget
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 3 inverters resulting in an inversion of 30 pins
+INFO: [Opt 31-138] Pushed 46 inverter(s) to 3019 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 14cc3190c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Retarget | Checksum: 14cc3190c
+INFO: [Opt 31-389] Phase Retarget created 76 cells and removed 408 cells
+INFO: [Opt 31-1021] In phase Retarget, 75 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 211251b80
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Constant propagation | Checksum: 211251b80
+INFO: [Opt 31-389] Phase Constant propagation created 28 cells and removed 209 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 75 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 1eddf53e1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Sweep | Checksum: 1eddf53e1
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 633 cells
+INFO: [Opt 31-1021] In phase Sweep, 219 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 6 BUFG optimization | Checksum: 1eddf53e1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 3082.379 ; gain = 2.324
+BUFG optimization | Checksum: 1eddf53e1
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1eddf53e1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Shift Register Optimization | Checksum: 1eddf53e1
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1982a91b4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Post Processing Netlist | Checksum: 1982a91b4
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 87 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 23641a720
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3082.379 ; gain = 2.324
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 3082.379 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 23641a720
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Phase 9 Finalization | Checksum: 23641a720
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3082.379 ; gain = 2.324
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              76  |             408  |                                             75  |
+|  Constant propagation         |              28  |             209  |                                             75  |
+|  Sweep                        |               0  |             633  |                                            219  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             87  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 23641a720
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3082.379 ; gain = 2.324
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 10 BRAM(s) out of a total of 21 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-201] Structural ODC has moved 13 WE to EN ports
+Number of BRAM Ports augmented: 13 newly gated: 17 Total Ports: 42
+Ending PowerOpt Patch Enables Task | Checksum: 1674e9ca4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 3292.910 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1674e9ca4
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:27 . Memory (MB): peak = 3292.910 ; gain = 210.531
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 142cee234
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 3292.910 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 142cee234
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 3292.910 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 3292.910 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 142cee234
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 3292.910 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+56 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 3292.910 ; gain = 578.426
+INFO: [Vivado 12-24828] Executing command : report_drc -file ASSEMBLY_5_wrapper_drc_opted.rpt -pb ASSEMBLY_5_wrapper_drc_opted.pb -rpx ASSEMBLY_5_wrapper_drc_opted.rpx
+Command: report_drc -file ASSEMBLY_5_wrapper_drc_opted.rpt -pb ASSEMBLY_5_wrapper_drc_opted.pb -rpx ASSEMBLY_5_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/impl_1/ASSEMBLY_5_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:22 ; elapsed = 00:00:52 . Memory (MB): peak = 4181.180 ; gain = 888.270
+generate_parallel_reports: Time (s): cpu = 00:00:22 ; elapsed = 00:00:52 . Memory (MB): peak = 4181.180 ; gain = 888.270
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 4181.180 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/impl_1/ASSEMBLY_5_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 123a8f6a0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1346aee6f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 155f314ff
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 155f314ff
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 155f314ff
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 228642bd4
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+INFO: [Place 30-3162] Check ILP status : ILP-based clock placer completed successfully.
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 214ea6677
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.1.1.3 PBP: Compute Congestion
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 214ea6677
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:33 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.1.1.4 PBP: UpdateTiming
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 1617cea72
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.1.1.5 PBP: Add part constraints
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 1617cea72
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 2.1.1 Partition Driven Placement | Checksum: 1617cea72
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 2.1 Floorplanning | Checksum: 1d0cd0fc5
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1d0cd0fc5
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1d0cd0fc5
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 23d1a6f92
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:12 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 474 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 148 nets or LUTs. Breaked 0 LUT, combined 148 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 4 candidate driver sets for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 2 nets.  Re-placed 7 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 2 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 7 existing cells
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 4181.180 ; gain = 0.000
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            148  |                   148  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |              0  |                     2  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            148  |                   150  |           0  |           5  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 26044c8ec
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:01:15 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 31762f35f
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:01:25 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 31762f35f
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:01:25 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 344d7b39e
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:01:34 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 25db05ca8
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:01:35 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: 26f23bae3
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:53 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 3.3.2 Slice Area Swap
+
+Phase 3.3.2.1 Slice Area Swap Initial
+Phase 3.3.2.1 Slice Area Swap Initial | Checksum: 24d8e7ba5
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:02:04 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 3.3.2 Slice Area Swap | Checksum: 24d8e7ba5
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:02:04 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 3.3 Small Shape DP | Checksum: 22860dbfa
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:02:24 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 24e040d45
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:02:25 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 2c7b0f58e
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:02:25 . Memory (MB): peak = 4181.180 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 2c7b0f58e
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:02:25 . Memory (MB): peak = 4181.180 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1f77f775a
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=5.859 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 150920635
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.542 . Memory (MB): peak = 4186.695 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 270af2e70
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4186.695 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1f77f775a
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:02:53 . Memory (MB): peak = 4186.695 ; gain = 5.516
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=5.859. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 2b1519734
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:02:53 . Memory (MB): peak = 4186.695 ; gain = 5.516
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:02:53 . Memory (MB): peak = 4186.695 ; gain = 5.516
+Phase 4.1 Post Commit Optimization | Checksum: 2b1519734
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:02:53 . Memory (MB): peak = 4186.695 ; gain = 5.516
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 4210.648 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 2d973ff72
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:03:06 . Memory (MB): peak = 4210.648 ; gain = 29.469
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                1x1|                1x1|                1x1|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                1x1|                1x1|
+|___________|___________________|___________________|___________________|
+|       East|                1x1|                1x1|                2x2|
+|___________|___________________|___________________|___________________|
+|       West|                1x1|                1x1|                2x2|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 2d973ff72
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:03:06 . Memory (MB): peak = 4210.648 ; gain = 29.469
+Phase 4.3 Placer Reporting | Checksum: 2d973ff72
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:03:06 . Memory (MB): peak = 4210.648 ; gain = 29.469
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 4210.648 ; gain = 0.000
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:03:06 . Memory (MB): peak = 4210.648 ; gain = 29.469
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2794e0299
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:03:07 . Memory (MB): peak = 4210.648 ; gain = 29.469
+Ending Placer Task | Checksum: 19a9086f0
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:03:07 . Memory (MB): peak = 4210.648 ; gain = 29.469
+95 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:57 ; elapsed = 00:03:15 . Memory (MB): peak = 4210.648 ; gain = 29.469
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_io -file ASSEMBLY_5_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.159 . Memory (MB): peak = 4210.648 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file ASSEMBLY_5_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 4210.648 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file ASSEMBLY_5_wrapper_utilization_placed.rpt -pb ASSEMBLY_5_wrapper_utilization_placed.pb
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.156 . Memory (MB): peak = 4210.648 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 4210.797 ; gain = 0.148
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4210.797 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 4210.797 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 4210.797 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 4210.797 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 4210.797 ; gain = 0.148
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/impl_1/ASSEMBLY_5_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 4210.797 ; gain = 0.148
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 4212.562 ; gain = 1.766
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 5.859 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+106 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 4212.562 ; gain = 1.766
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.187 . Memory (MB): peak = 4238.344 ; gain = 8.922
+Wrote PlaceDB: Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 4243.453 ; gain = 14.031
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4243.453 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.217 . Memory (MB): peak = 4243.453 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.096 . Memory (MB): peak = 4243.453 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 4243.453 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 4243.453 ; gain = 14.031
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/impl_1/ASSEMBLY_5_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 4243.453 ; gain = 30.891
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 7ef0fdbe ConstDB: 0 ShapeSum: 2d659aa8 RouteDB: ee39ee8a
+Nodegraph reading from file.  Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 4243.453 ; gain = 0.000
+Post Restoration Checksum: NetGraph: d4859db4 | NumContArr: d338bae7 | Constraints: 46e50e02 | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 2b14c613a
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 4250.062 ; gain = 6.609
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 2b14c613a
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 4250.062 ; gain = 6.609
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 2b14c613a
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 4250.062 ; gain = 6.609
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 1eedf9cf8
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 4329.035 ; gain = 85.582
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 218983f8b
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 4329.035 ; gain = 85.582
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.929  | TNS=0.000  | WHS=-0.087 | THS=-79.333|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 14557
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 12384
+  Number of Partially Routed Nets     = 2173
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1cd1e7bee
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 1cd1e7bee
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 15f0e8457
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4344.902 ; gain = 101.449
+Phase 4 Initial Routing | Checksum: 16bee3a2d
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 2146
+ Number of Nodes with overlaps = 148
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.279  | TNS=0.000  | WHS=-0.012 | THS=-0.039 |
+
+Phase 5.1 Global Iteration 0 | Checksum: 2b9f41bb0
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:06 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 5.2 Additional Iteration for Hold
+Phase 5.2 Additional Iteration for Hold | Checksum: 28c7cb770
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:06 . Memory (MB): peak = 4344.902 ; gain = 101.449
+Phase 5 Rip-up And Reroute | Checksum: 28c7cb770
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:06 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.279  | TNS=0.000  | WHS=0.011  | THS=0.000  |
+
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.279  | TNS=0.000  | WHS=0.011  | THS=0.000  |
+
+Phase 6.1 Delay CleanUp | Checksum: 26dd4a807
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:01:10 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 26dd4a807
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:01:10 . Memory (MB): peak = 4344.902 ; gain = 101.449
+Phase 6 Delay and Skew Optimization | Checksum: 26dd4a807
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:01:10 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.279  | TNS=0.000  | WHS=0.011  | THS=0.000  |
+
+Phase 7.1 Hold Fix Iter | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:01:13 . Memory (MB): peak = 4344.902 ; gain = 101.449
+Phase 7 Post Hold Fix | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:01:13 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.29737 %
+  Global Horizontal Routing Utilization  = 1.53041 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:14 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:14 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:15 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 11 Resolve XTalk
+Phase 11 Resolve XTalk | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:15 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 12 Post Process Routing
+Phase 12 Post Process Routing | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:16 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Phase 13 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=4.279  | TNS=0.000  | WHS=0.011  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 13 Post Router Timing | Checksum: 1dcf7731f
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:16 . Memory (MB): peak = 4344.902 ; gain = 101.449
+Total Elapsed time in route_design: 75.642 secs
+
+Phase 14 Post-Route Event Processing
+Phase 14 Post-Route Event Processing | Checksum: 138cc12e6
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:16 . Memory (MB): peak = 4344.902 ; gain = 101.449
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 138cc12e6
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:16 . Memory (MB): peak = 4344.902 ; gain = 101.449
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+122 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:26 ; elapsed = 00:01:26 . Memory (MB): peak = 4344.902 ; gain = 101.449
+INFO: [Vivado 12-24828] Executing command : report_drc -file ASSEMBLY_5_wrapper_drc_routed.rpt -pb ASSEMBLY_5_wrapper_drc_routed.pb -rpx ASSEMBLY_5_wrapper_drc_routed.rpx
+Command: report_drc -file ASSEMBLY_5_wrapper_drc_routed.rpt -pb ASSEMBLY_5_wrapper_drc_routed.pb -rpx ASSEMBLY_5_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/impl_1/ASSEMBLY_5_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_methodology -file ASSEMBLY_5_wrapper_methodology_drc_routed.rpt -pb ASSEMBLY_5_wrapper_methodology_drc_routed.pb -rpx ASSEMBLY_5_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file ASSEMBLY_5_wrapper_methodology_drc_routed.rpt -pb ASSEMBLY_5_wrapper_methodology_drc_routed.pb -rpx ASSEMBLY_5_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/impl_1/ASSEMBLY_5_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -report_unconstrained -file ASSEMBLY_5_wrapper_timing_summary_routed.rpt -pb ASSEMBLY_5_wrapper_timing_summary_routed.pb -rpx ASSEMBLY_5_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Vivado 12-24838] Running report commands "report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file ASSEMBLY_5_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_route_status -file ASSEMBLY_5_wrapper_route_status.rpt -pb ASSEMBLY_5_wrapper_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_power -file ASSEMBLY_5_wrapper_power_routed.rpt -pb ASSEMBLY_5_wrapper_power_summary_routed.pb -rpx ASSEMBLY_5_wrapper_power_routed.rpx
+Command: report_power -file ASSEMBLY_5_wrapper_power_routed.rpt -pb ASSEMBLY_5_wrapper_power_summary_routed.pb -rpx ASSEMBLY_5_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+139 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file ASSEMBLY_5_wrapper_clock_utilization_routed.rpt
+WARNING: [Device 21-9320] Failed to find the Oracle tile group with name 'HSR_BOUNDARY_TOP'. This is required for Clock regions and Virtual grid.
+WARNING: [Device 21-2174] Failed to initialize Virtual grid.
+report_clock_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file ASSEMBLY_5_wrapper_bus_skew_routed.rpt -pb ASSEMBLY_5_wrapper_bus_skew_routed.pb -rpx ASSEMBLY_5_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+generate_parallel_reports: Time (s): cpu = 00:00:45 ; elapsed = 00:01:20 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.127 . Memory (MB): peak = 4344.902 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 4344.902 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4344.902 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.828 . Memory (MB): peak = 4344.902 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 4344.902 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 4344.902 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hp/Folder_Tugas_VIVADO/ASSEMBLY_4/ASSEMBLY_4.runs/impl_1/ASSEMBLY_5_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 4344.902 ; gain = 0.000
+
+WARNING::74 - Unsupported FPGA device name 'xck26-sfvc784-2LV-c'. Verify that the specified device is a valid customer supported device.
+-p xck26-sfvc784-2LV-c
+   ^
+
+INFO: [Memdata 28-167] Found XPM memory block ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the ASSEMBLY_5_i/smartconnect_1/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the ASSEMBLY_5_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <ASSEMBLY_5_i/axis_ann_0/inst/xpm_fifo_axis_1/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <ASSEMBLY_5_i/axis_ann_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <ASSEMBLY_5_i/axis_ann_0/inst/xpm_fifo_axis_0/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <ASSEMBLY_5_i/axis_ann_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <ASSEMBLY_5_i/axis_ann_0/inst/ann_0/xpm_memory_tdpram_wb/xpm_memory_base_inst> is part of IP: <ASSEMBLY_5_i/axis_ann_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <ASSEMBLY_5_i/axis_ann_0/inst/ann_0/xpm_memory_tdpram_k/xpm_memory_base_inst> is part of IP: <ASSEMBLY_5_i/axis_ann_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <ASSEMBLY_5_i/axis_ann_0/inst/ann_0/xpm_memory_tdpram_a/xpm_memory_base_inst> is part of IP: <ASSEMBLY_5_i/axis_ann_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER/GEN_INCLUDE_SCATTER.I_S2MM_SCATTER/I_TSTRB_FIFO/USE_SYNC_FIFO.I_SYNC_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER/GEN_INCLUDE_SCATTER.I_S2MM_SCATTER/I_TSTRB_FIFO/USE_SYNC_FIFO.I_SYNC_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <ASSEMBLY_5_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <ASSEMBLY_5_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force ASSEMBLY_5_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe10/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe10/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe11/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe11/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe12/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe12/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe13/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe13/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe14/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe14/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe20/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe20/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe21/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe21/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe22/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe22/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe23/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe23/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe24/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe24/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe30/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe30/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe31/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe31/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe32/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe32/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe33/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe33/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe34/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe34/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe40/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe40/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe41/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe41/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe42/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe42/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe43/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe43/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe44/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe44/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe50/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe50/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe51/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe51/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe52/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe52/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe53/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe53/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe54/y_out_i output ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe54/y_out_i/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe00/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe00/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe01/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe01/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe02/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe02/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe03/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe03/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe04/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe04/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe10/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe10/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe11/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe11/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe12/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe12/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe13/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe13/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe14/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe14/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe20/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe20/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe21/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe21/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe22/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe22/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe23/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe23/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe24/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe24/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe30/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe30/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe31/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe31/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe32/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe32/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe33/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe33/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe34/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe34/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe40/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe40/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe41/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe41/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe42/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe42/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe43/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe43/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe44/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe44/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe50/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe50/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe51/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe51/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe52/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe52/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe53/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe53/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe54/y_out_i multiplier stage ASSEMBLY_5_i/axis_ann_0/inst/ann_0/systolic_0/pe54/y_out_i/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A3)+((~A3)*(~A4)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A5)+((~A5)*(~A3)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A3)+((~A3)*(~A1)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A3)+((~A3)*(~A5)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A1)+((~A1)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A6' of cell ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A2)+((~A2)*(~A5)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC REQP-1934] RAMB18E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1934] RAMB18E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (ASSEMBLY_5_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC RTSTAT-10] No routable loads: 66 net(s) have no routable loads. The problem bus(es) and/or net(s) are ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], ASSEMBLY_5_i/axi_interconnect_0/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0]... and (the first 15 of 42 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 68 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./ASSEMBLY_5_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+168 Infos, 175 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 4344.902 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 17 11:19:29 2024...
